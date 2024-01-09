@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T22:07:46.506Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mw0CerucsmsUm52DgTDH" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T08:05:25.190Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gYmGhWLi3KUZnMrETCbx" version="22.1.17" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -6,6 +6,41 @@
         <mxCell id="1" parent="0" />
         <mxCell id="Y6wzTD3312t-Q8md6YEm-3" value="&lt;p style=&quot;color: rgb(64, 64, 64); font-family: Raleway, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(253, 253, 253); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Una empresa tiene varios departamentos. Cada departamento tiene un supervisor y al menos un empleado. Los empleados deben ser asignados a por lo menos uno, pero posiblemente más departamentos. Al menos un empleado es asignado a un proyecto, pero un empleado puede estar de vacaciones y no asignado a ningún proyecto. Los campos de datos importantes son los nombres de los departamentos, proyectos, supervisores y empleados, así como el número de supervisor y empleado y un número de proyecto único.&lt;/p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="20" width="560" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-4" value="ALUMNO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-5" value="Nombre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-6" value="Doc.Ident." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y6wzTD3312t-Q8md6YEm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-7" value="Apellido" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y6wzTD3312t-Q8md6YEm-5" target="Y6wzTD3312t-Q8md6YEm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6wzTD3312t-Q8md6YEm-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.442;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y6wzTD3312t-Q8md6YEm-6" target="Y6wzTD3312t-Q8md6YEm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
